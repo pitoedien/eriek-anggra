@@ -243,6 +243,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg {
   background-position: center center;
+  margin-top: 100px;
   width: 100%;
   float: left;
   position: relative;
@@ -1872,4 +1873,127 @@ form label {
     width: 100%;
   }
 }
+
+#jumbotronPopUp {
+  height:auto;
+}
+#jumbotronPopUp form{
+  margin-left: 25%;
+  background: rgb(216, 213, 213);
+  width: 50%;
+  padding: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+
+#jumbotronPopUp form h2{
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 50px;
+}
+
+#jumbotronPopUp form h1{
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 30px;
+}
+
+#jumbotronPopUp form p{
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: auto;
+}
+
+#jumbotronPopUp form .form-control{
+  border-color: rgba(56, 54, 55, 0.8);
+}
+
+
+@media screen and (max-width: 768px) {
+  #jumbotronPopUp form{
+    margin-left: 0%;
+    background: rgb(216, 213, 213);
+    width: auto;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+  }
+  
+  
+  #jumbotronPopUp form h2{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form p{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form .form-control{
+    border-color: rgba(56, 54, 55, 0.8);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #jumbotronPopUp form{
+    margin-left: 0%;
+    background: rgb(216, 213, 213);
+    width: auto;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+  }
+  
+  
+  #jumbotronPopUp form h2{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form p{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form .form-control{
+    border-color: rgba(56, 54, 55, 0.8);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #jumbotronPopUp form{
+    margin-left: 0%;
+    background: rgb(216, 213, 213);
+    width: auto;
+    padding: 5px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.1);
+  }
+  
+  
+  #jumbotronPopUp form h2{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form p{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: auto;
+  }
+  
+  #jumbotronPopUp form .form-control{
+    border-color: rgba(56, 54, 55, 0.8);
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
